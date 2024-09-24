@@ -1,0 +1,69 @@
+h1, 
+h2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: block;
+}
+
+span {
+    border: 3px solid red;
+}
+
+.container {
+    border: 5px solid black;
+    height: 50vh;
+    width: 50vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  
+}
+.container2 {
+    background-color: grey;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.red-col {
+  background-color: red;  
+  color: white;
+  padding: 20px;
+  order: 20;
+}
+.orange-col {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+.yellow-col {
+    background-color: yellow;
+    color: white;
+    padding: 20px;
+}
+.green-col {
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+.blue-col {
+    background-color: blue;
+    columns: white;
+    padding: 20px;
+}
+.indigo-col {
+    background-color: indigo;
+    color: white;
+    padding: 20px;
+}
+.violet-col {
+    background-color: violet;
+    color: white;
+    padding: 20px;
+}

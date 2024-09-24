@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    background-color: #e4f9f5;
+    /* padding: top right bottom left */
+    /* padding is also: top-bottom left-right */
+    /* padding: 40px 150px 40px 150px; */
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #66bfbf;
+    font-size: 20px;
+}
+
+/* .profile img{
+    height: 200px;
+    width: 200px;
+} */
+
+.section-profile{
+    background-color: white;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.hello{
+    font-size: 50px;
+    color: #66bfbf;
+    font-weight: 500;
+}
+.section-skills {
+    /* background-color: red; */
+    /* text-align: center; */
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills {
+    /* background-color: blue; */
+    width: 50%;
+}
+.skill-cat, 
+.skill-pepper {
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+/* .skill-pepper{
+    background-color: red;
+    display: flex;
+} */
+
+.chilles {
+    width: 150px;
+}
+.cat {
+    width: 200px;
+} 
+.skill-info h3 {
+    font-size: 24px;
+    color: #11999e;
+    margin-bottom: 20px;
+    font-weight: 600;
+   
+}
+.chilles-container {
+    width: 400px;
+    /* background-color: blue; */
+}
+.skill-info {
+    display: block;
+    font-size: 24px;
+}
+.section-contact {
+    /* background-color: red; */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.info {
+    font-size: 30px;
+    color: #11999e;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    padding-top: 30px; 
+}
+.contact {
+   font-size: 22px;
+}
+ .btn {
+    width: 150px;
+    background-color:#11cdd4;
+    color:white;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    
+ }
+ .button {
+    padding-top: 40px;
+ }
